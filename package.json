@@ -1,0 +1,38 @@
+{
+  "name": "bond-protocol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-toolbox-viem": "^4.0.0-next.17",
+    "@nomicfoundation/hardhat-viem-matchers": "^3.0.0-next.13",
+    "@types/node": "^22.15.32",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.0-next.17",
+    "typescript": "~5.8.0",
+    "viem": "^2.31.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.8.0",
+    "@chainlink/contracts-ccip": "^1.6.0",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-keystore": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-verify": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-viem": "^3.0.0-next.17",
+    "@nomicfoundation/hardhat-viem-assertions": "^3.0.0-next.17",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@openzeppelin/contracts-upgradeable": "^5.3.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.4"
+  }
+}

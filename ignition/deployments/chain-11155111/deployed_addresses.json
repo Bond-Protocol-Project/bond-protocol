@@ -1,0 +1,11 @@
+{
+  "PoolTokenFactoryModule#LPTokenFactory": "0x9Aa9AbAe4A3B7A02bE65305387755d22F6f045C1",
+  "ProtocolModule#BondProtocol": "0x1F4899e17F9eEc08B91a48f8A5be12Bca14F18a6",
+  "BridgeModule#BondBridge": "0x74330D2E37A7F94eCc89f0B523460073410F6F57",
+  "PoolModule#BondPool": "0x2f6921FeD98a40d69503f1b6F47F20e1aFCA2ac9",
+  "ImplementationDeployerModule#ImplementationDeployer": "0x09F188Af48164D5974582d0E0822998996557aCF",
+  "BridgeModuleV2#BondBridge": "0xF2791A85159D7cEC9dA0cd5112baB84845EB79FC",
+  "ImplementationDeployerModuleV3#ImplementationDeployer": "0x23de5C588e24a1B668852625bab1B5dC72343018",
+  "BridgeModuleV3#BondBridge": "0xbe357642041B9391b6D7fA515496B402A349f66c",
+  "BridgeModuleV4#BondBridge": "0x5e1c84B064a8232D735Bc3B3fd06fB1589ba1208"
+}
