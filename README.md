@@ -4,13 +4,14 @@
 1. [Problem Statement](#problem-statement)
 2. [Solution Overview](#solution-overview)
 3. [Protocol Architecture](#protocol-architecture)
-4. [Deep Dive: Protocol Mechanics](#deep-dive-protocol-mechanics)
-5. [Solver Network](#solver-network)
-6. [Smart Account Implementation](#smart-account-implementation)
-7. [Bond Wallet SDK](#bond-wallet-sdk)
-8. [Technical Implementation](#technical-implementation)
-9. [Security Considerations](#security-considerations)
-10. [Use Cases](#use-cases)
+4. [Prorocol Addresses](#protocol-addresses)
+5. [Deep Dive: Protocol Mechanics](#deep-dive-protocol-mechanics)
+6. [Solver Network](#solver-network)
+7. [Smart Account Implementation](#smart-account-implementation)
+8. [Bond Wallet SDK](#bond-wallet-sdk)
+9. [Technical Implementation](#technical-implementation)
+10. [Security Considerations](#security-considerations)
+11. [Use Cases](#use-cases)
 
 ---
 
@@ -91,6 +92,58 @@ TypeScript SDK that abstracts protocol complexity and provides intuitive APIs fo
 
 ### 5. Solver Network (Execution Layer)
 Decentralized network of solvers that monitor intents and execute the final settlement transactions.
+
+---
+
+## Prorocol Addresses
+
+Avalanche fuji
+
+```json
+{
+  "PoolTokenFactoryModule#LPTokenFactory": "0x9Aa9AbAe4A3B7A02bE65305387755d22F6f045C1",
+  "ProtocolModule#BondProtocol": "0x1F4899e17F9eEc08B91a48f8A5be12Bca14F18a6",
+  "BridgeModule#BondBridge": "0x8Bb975F66f5bBE04be7991D78BB7CB92E8250950",
+  "PoolModule#BondPool": "0x2f6921FeD98a40d69503f1b6F47F20e1aFCA2ac9",
+  "ImplementationDeployerModule#ImplementationDeployer": "0x23de5C588e24a1B668852625bab1B5dC72343018",
+}
+```
+
+Sepolia
+
+```json
+{
+  "PoolTokenFactoryModule#LPTokenFactory": "0x9Aa9AbAe4A3B7A02bE65305387755d22F6f045C1",
+  "ProtocolModule#BondProtocol": "0x1F4899e17F9eEc08B91a48f8A5be12Bca14F18a6",
+  "BridgeModule#BondBridge": "0x5e1c84B064a8232D735Bc3B3fd06fB1589ba1208",
+  "PoolModule#BondPool": "0x2f6921FeD98a40d69503f1b6F47F20e1aFCA2ac9",
+  "ImplementationDeployerModule#ImplementationDeployer": "0x23de5C588e24a1B668852625bab1B5dC72343018",
+}
+```
+
+polygon_amoy
+
+```json
+{
+  "PoolTokenFactoryModule#LPTokenFactory": "0x9Aa9AbAe4A3B7A02bE65305387755d22F6f045C1",
+  "ProtocolModule#BondProtocol": "0x1F4899e17F9eEc08B91a48f8A5be12Bca14F18a6",
+  "BridgeModule#BondBridge": "0x7E60C904CdfcF25d7e7e8c245Ffce4B7d99E1D68",
+  "PoolModule#BondPool": "0x2f6921FeD98a40d69503f1b6F47F20e1aFCA2ac9",
+  "ImplementationDeployerModule#ImplementationDeployer": "0x23de5C588e24a1B668852625bab1B5dC72343018",
+}
+```
+
+arbitrum_sepolia
+
+```json
+{
+  "PoolTokenFactoryModule#LPTokenFactory": "0x9Aa9AbAe4A3B7A02bE65305387755d22F6f045C1",
+  "ProtocolModule#BondProtocol": "0x1F4899e17F9eEc08B91a48f8A5be12Bca14F18a6",
+  "BridgeModule#BondBridge": "0xEbae7530DEb9b106595025B1a4208354102B0867",
+  "PoolModule#BondPool": "0x2f6921FeD98a40d69503f1b6F47F20e1aFCA2ac9",
+  "ImplementationDeployerModule#ImplementationDeployer": "0x23de5C588e24a1B668852625bab1B5dC72343018",
+}
+```
 
 ---
 
